@@ -1,0 +1,44 @@
+/* Reuse dashboard styles */
+.map-card {
+    background: white;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-top: 1rem;
+  }
+  
+  .leaflet-container {
+    border-radius: 12px;
+  }
+  
+  .map-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1.5rem;
+  }
+  
+  .back-button {
+    background: #1a73e8;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .back-button:hover {
+    background: #1557b0;
+  }
+  
+  /* Fix leaflet icons */
+  .leaflet-div-icon {
+    background: none;
+    border: none;
+  }
+  
+  .leaflet-marker-icon .icon {
+    width: 32px;
+    height: 32px;
+  }
